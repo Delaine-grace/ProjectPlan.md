@@ -1,4 +1,4 @@
-## Phase 1 checklist: Data & API Foundations
+## Phase 1 checklist: Data & API Foundations (Week 2-4)
 
 | Task                                                          | Status  | Notes                                             | Date |
 | ------------------------------------------------------------- | ------- | ------------------------------------------------- | ---- |
