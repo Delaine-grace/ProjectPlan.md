@@ -22,6 +22,20 @@
 | Document API (Swagger/OpenAPI)                                | Pending | Auto-generated docs                               |      |
 | Connect initial Power BI dashboard                            | Pending | ATS funnel + CRM client activity summary          |      |
 
+**Extend schema & ERD to include**:
+messages table (sender_id, receiver_id, role, message, timestamp).
+surveys table (stakeholder_type, score, comment, timestamp).
+Implement FastAPI endpoints:
+POST /message, GET /messages/{conversation_id}.
+POST /survey, GET /surveys/{type}.
+Seed dummy data:
+Candidate-job applications.
+Client-hiring manager relationships.
+Candidate ↔ Recruiter ↔ Hiring Manager ↔ Client message logs.
+Survey responses (Likert scale, free text).
+Create Power BI connectors for candidate, CRM, message, and survey tables.
+Test retrieval of dummy chat logs and survey results.
+
 ## Phase 2 - Core Feaures Implementation (Week 5-8)
 
 | Task                    | Status  | Notes                                            |
