@@ -20,17 +20,19 @@ Time delays are incorporated (10–20 days interview → offer).
 
 ## Seed Data checklist
 
-| Task                                      | Status  | Notes                                                                                                  | Date |
-| ----------------------------------------- | ------- | ------------------------------------------------------------------------------------------------------ | ---- |
-| Define schema for dummy data              | Pending | ATS (Candidates, Jobs, Applications, Stages, Interviews, Offers) + CRM (Clients, Contacts, Activities) |      |
-| Generate Candidates data (ATS)            | Pending | 1,000 sample profiles                                                                                  |      |
-| Generate Jobs data (ATS)                  | Pending | 50 sample jobs                                                                                         |      |
-| Generate Applications & Stages data (ATS) | Pending | Simulate funnel with drop-offs                                                                         |      |
-| Generate Interviews data (ATS)            | Pending | Include schedules & feedback                                                                           |      |
-| Generate Offers data (ATS)                | Pending | With acceptance/rejection                                                                              |      |
-| Generate Clients data (CRM)               | Pending | 100 sample companies                                                                                   |      |
-| Generate Contacts data (CRM)              | Pending | 2–5 per client                                                                                         |      |
-| Generate Activities/Comms data (CRM)      | Pending | Emails, calls, meetings linked to clients/contacts                                                     |      |
-| Validate dataset integrity                | Pending | Check FK links: candidate↔application, client↔contact↔activity                                         |      |
-| Save sample CSV/SQL export                | Pending | Provide reproducible example                                                                           |      |
-| Document seed data generation             | Pending | Scripts, schema, random seed for reproducibility                                                       |      |
+| Task                                         | Status | Notes                                                                          | Date |
+| -------------------------------------------- | ------ | ------------------------------------------------------------------------------ | ---- |
+| Generate Candidate Profiles                  |        | Name, contact info, resume link, skills, diversity attributes                  |      |
+| Generate Client Profiles                     |        | Company info, contact person, industry, engagement score                       |      |
+| Generate Job/Role Listings                   |        | Job title, department, status (open/closed), assigned recruiter                |      |
+| Generate Recruiter / Talent Acquisition Data |        | Name, team, region, assigned candidates/jobs                                   |      |
+| Generate Hiring Manager Profiles             |        | Name, department, assigned jobs, feedback history                              |      |
+| Generate ATS Pipeline Stages                 |        | Applied, Screening, Interview, Offer, Hired/Rejected                           |      |
+| Generate Application Events                  |        | Timestamps for stage transitions, duration per stage                           |      |
+| Generate Messaging Records                   |        | Sample chats between Candidate ↔ Recruiter, Client ↔ Recruiter, HM ↔ Recruiter |      |
+| Generate Email Notifications (Optional)      |        | Simulated email triggers for stage changes or messaging                        |      |
+| Generate Satisfaction Survey Responses       |        | Client, Candidate, Recruiter, HM scores, feedback text                         |      |
+| Generate Diversity & Inclusion Metrics       |        | Derived from candidate profiles and survey responses                           |      |
+| Generate CRM Engagement Events               |        | Notes, follow-ups, calls, meetings, response status                            |      |
+| Generate Dummy Analytics Metrics             |        | Funnel counts, conversion rates, engagement scores, average time per stage     |      |
+| Tools / Scripts Setup                        |        | Use Python scripts (Faker/Mockaroo), PostgreSQL seed scripts                   |      |
