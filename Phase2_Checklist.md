@@ -1,4 +1,4 @@
-## Phase 2 Checklist: Core Feautures implementation
+## Phase 2 Checklist: Core Feautures implementation (Week 5-8)
 
 | Task                           | Status   | Notes                                                                     | Date       |
 | ------------------------------ | -------- | ------------------------------------------------------------------------- | ---------- |
