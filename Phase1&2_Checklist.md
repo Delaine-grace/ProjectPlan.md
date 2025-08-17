@@ -22,7 +22,7 @@
 | Document API (Swagger/OpenAPI)                                | Pending | Auto-generated docs                               |      |
 | Connect initial Power BI dashboard                            | Pending | ATS funnel + CRM client activity summary          |      |
 
-## Phase 2 - Core Feaures Implementation
+## Phase 2 - Core Feaures Implementation (Week 5-8)
 
 | Task                    | Status  | Notes                                            |
 | ----------------------- | ------- | ------------------------------------------------ |
