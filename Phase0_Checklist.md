@@ -1,4 +1,4 @@
-## Project Checklist for phase 0: INCEPTION
+## Project Checklist for phase 0: Inception (Week 1)
 
 | Task                              | Status   | Notes                                                                                                  | Date       |
 | --------------------------------- | -------- | ------------------------------------------------------------------------------------------------------ | ---------- |
